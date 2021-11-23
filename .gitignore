@@ -1,0 +1,7 @@
+# Project exclude paths
+/out/
+*.iml
+/Practice/
+/python/
+/src/
+!/src/{baekjoon, programmers}/
