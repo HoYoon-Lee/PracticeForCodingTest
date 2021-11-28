@@ -3,5 +3,6 @@
 *.iml
 /Practice/
 /python/
-/src/
-!/src/{baekjoon, programmers}/
+!/src/baekjoon
+!/src/programmers
+/src/*
