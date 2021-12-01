@@ -15,14 +15,14 @@ public class Main {
             long cnt = 0, min = Math.min(m, n);
             if(m == 1 && n == 1) break;
 
-            for(long i = 0; i < m - 1; i++){
-                for(long j = 1; i + j <= min; j++){
-                    long length = i + j;
-                    if(((i * i) + (j * j)) % 2 == 1){
-                        cnt += (m - length) * (n - length);
-                    }
-                }
-            }
+//            for(long i = 0; i < m - 1; i++){
+//                for(long j = 1; i + j <= min; j++){
+//                    long length = i + j;
+//                    if(((i * i) + (j * j)) % 2 == 1){
+//                        cnt += (m - length) * (n - length);
+//                    }
+//                }
+//            }
             bw.write(cnt + "\n");
         }
         br.close();
